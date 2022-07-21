@@ -1,0 +1,25 @@
+3.	De un ejemplo de 3 excepciones diferentes que Python utiliza.
+
+a) ValueError: Excepción incorporada que es lanzada cuando una función espera un valor determinado pero recibe otro.
+
+try:
+    n=int(input('Escribe el numero entero objetivo: '))
+    object=n
+except ValueError:
+    print('No es entero')
+
+b) ZeroDivisionError: Ocurre cuando se intenta dividir entre cero.
+
+try:
+    a=int(input('Escribe el dividendo'))
+    print(a/0)
+except ZeroDivisionError:
+    print('No se puede dividir') 
+
+c) KeyError: Ocurre cuando se intenta acceder a un diccionario con una clave que no existe.
+
+try:
+    dict={"naranja":10,"fresa":5,"plátano":6}
+    print(f'{"manzana"}:{dict["manzana"]}')
+except KeyError:
+    print('No se encontró')
