@@ -1,0 +1,5 @@
+ii. Explique si los parámetros de las funciones son pasados por valor o por referencia.
+    Los parametros de las funciones en python son pasados por valor o por referencia dependiendo el tipo de dato que se emplee en cada parametro.
+    Por ejemplo en el tipo de dato "list", lo que hacemos es pasar por referencia, ya que al alterarla estos cambios pasan como la nueva lista.
+    Pero si el parametros de la función es una valor, como por ejemplo un "str", lo que hace python es pasar por valor, y a la hora de volver a escribir ese valor lo devuelve sin cambios.
+    Adicinando se recomienda que para trabajar con una lista estable a la hora de usar una funcion, establecer como parametro una copia de la lista. (Para eso usamos: nombre_de_la_lista.copy() y si queremos lo almacenamos en otra dirección)
