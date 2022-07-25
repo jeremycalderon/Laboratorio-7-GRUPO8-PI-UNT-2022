@@ -1,2 +1,15 @@
 1. Explique qué son y para qué se usan *args y **kwargs en Python
-    
+   *Args es el parámetro que se le da a una función cuando no sabemos exactamente el número de parámetros
+   que van a pasársele a la función que estamos creando cuando sea llamada más adelante. Al emplear *args,
+   la función va a aceptar cualquier número de parámetros que le demos, característica que es útil, por ejemplo,
+   al elaborar una función que devuelva la suma de n números o la multiplicación de ellos. Los parámetros dados
+   forman una tupla.
+   
+   **Kwargs funciona de manera similar, es igualmente un parámetro que se le da a la función para que al llamarla
+   acepte un número variable de parámetros. La diferencia con *args es que estos parámetros van a tener "nombres",
+   es decir, los parámetros van a conformar un diccionario.
+   
+   Es importante recordar que en la palabra "*args", lo único necesario para que este parámetro cumpla su función
+   como se ha descrito es que al nombre del parámetro se le anteponga el asterisco, siendo "args" simplemente un
+   convencionalismo. De igual modo sucede con "**kwargs", lo necesario son los dos asteriscos que pueden seguirse
+   del nombre que nos resulte más conveniente puesto que "kwargs" es un convencionalismo.
